@@ -72,7 +72,7 @@ a.active {
  * HEADER
  */
 
-.section, section {
+.header, header {
   align-items: center;
   background-color: #EFEFEF;
   background-image: url('bg.jpg');
@@ -92,12 +92,12 @@ a.active {
 }
 
 @media only screen and (max-device-width: 420px)  {
-  .section, section {
+  .header, header {
     background-size: auto 100%;
   }
 }
 
-.section:before, section:before {
+.header:before, header:before {
   background: rgba(0, 0, 0, .7);
   bottom: 0;
   content: ' ';
@@ -109,18 +109,18 @@ a.active {
   z-index: 1;
 }
 
-.section *, section * {
+.header *, header * {
   position: relative;
   z-index: 2;
   text-shadow: 1px 1px 10px black;
 }
 
-.section h1, section h1 {
+.header h1, header h1 {
   font-size: 4rem;
   font-weight: 100;
 }
 
-.section h2, section h2 {
+.header h2, header h2 {
   font-size: 2.1rem;
   font-weight: 100;
   margin: 5px 0;
